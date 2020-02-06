@@ -16,5 +16,5 @@ install:
  - npm build
 script:
  - nohup npm run start &
- - sleep 3
+ - sleep 20
  - npm run test
